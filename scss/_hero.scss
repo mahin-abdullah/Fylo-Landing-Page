@@ -1,0 +1,46 @@
+.hero {
+  padding-bottom: 4em;
+
+  .hero__img.col {
+    padding: 3em 0 1.5em 0;
+  }
+
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__content {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 19px;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+
+    .cta--email,
+    .cta--btn {
+      border-radius: 5px;
+      font-size: 16px;
+      padding: 0.6em;
+      font-family: $secondary-font;
+    }
+    .cta--email {
+      margin: 1em 0;
+      border: 1px solid black;
+    }
+
+    .cta--btn {
+      color: #fff;
+      background: $accent-clr;
+      transition: all 250ms ease-out;
+    }
+
+    .cta--btn:focus,
+    .cta--btn:hover {
+      transform: scale(1.03);
+      letter-spacing: 0.5px;
+    }
+  }
+}

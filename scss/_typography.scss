@@ -1,0 +1,28 @@
+// Imported Fonts //
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway&display=swap");
+
+// Fonts //
+
+$primary-font: "Raleway", sans-serif;
+$secondary-font: "Open Sans", sans-serif;
+
+// Font Sizes //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 31px;
+}
+
+p {
+  font-family: $primary-font;
+}

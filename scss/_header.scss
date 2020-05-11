@@ -1,0 +1,27 @@
+.logo {
+  width: 40%;
+}
+
+.logo img {
+  padding: 0.4em 0 0 0;
+}
+
+.nav {
+  width: 65%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__item {
+  list-style: none;
+  padding: 0 0.35em;
+  font-size: 15px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: $primary-font;
+}
