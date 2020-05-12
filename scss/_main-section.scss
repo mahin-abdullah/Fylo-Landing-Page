@@ -1,0 +1,21 @@
+.curve--img {
+  min-width: 100%;
+  margin: 0 0 -5px 0;
+}
+
+main {
+  background: $bg-clr;
+
+  .main__img {
+    padding: 3em 0 2.5em 0;
+  }
+
+  .main__content h6 {
+    text-align: center;
+  }
+
+  .main__content p {
+    line-height: 1.4;
+    font-size: 18px;
+  }
+}
