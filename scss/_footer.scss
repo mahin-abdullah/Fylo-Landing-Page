@@ -1,0 +1,40 @@
+footer {
+  background: $primary-clr;
+  padding: 3.5em 0 2em 0;
+
+  .footer__logo {
+    margin: 0 0 1.5em 0;
+  }
+
+  .footer__contact img {
+    padding: 0 0.8em 0 0;
+  }
+
+  .footer__contact p {
+    color: #fff;
+  }
+
+  .footer__list {
+    list-style: none;
+    font-family: $primary-font;
+    margin: 2em 0 1em 0;
+
+    .footer__item {
+      padding: 0.4em 0;
+    }
+    .footer__link {
+      text-decoration: none;
+      color: #fff;
+      padding: 1em 0;
+    }
+  }
+
+  .social__icons {
+    text-align: center;
+
+    svg:not(:root).svg-inline--fa {
+      color: #fff;
+      margin: 2em 0.6em 0.5em 0.6em;
+    }
+  }
+}
