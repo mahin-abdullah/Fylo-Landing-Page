@@ -1,0 +1,47 @@
+.form__section {
+  background: $secondary-clr;
+  padding: 3.5em 0 3.5em 0;
+
+  .form__content h6,
+  .form__content p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 1em;
+  }
+
+  .form__content p {
+    line-height: 1.5;
+  }
+
+  .cta--form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form--email,
+  .form--btn {
+    font-family: $secondary-font;
+    padding: 1em;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .form--email {
+    margin: 0 auto 1em auto;
+  }
+
+  .form--btn {
+    margin: 0 auto;
+    background: $accent-clr;
+    color: #fff;
+    transition: all 250ms ease-out;
+  }
+
+  .form--btn:focus,
+  .form--btn:hover {
+    transform: scale(1.035);
+    letter-spacing: 0.5px;
+  }
+}
