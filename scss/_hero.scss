@@ -22,7 +22,7 @@
     .cta--email,
     .cta--btn {
       border-radius: 5px;
-      font-size: 16px;
+      font-size: 15px;
       padding: 0.8em;
       font-family: $secondary-font;
     }
@@ -44,5 +44,47 @@
       transform: scale(1.03);
       letter-spacing: 0.5px;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__img {
+    order: 2;
+  }
+
+  .hero__main {
+    order: 1;
+  }
+
+  .hero__img.col {
+    width: 48%;
+  }
+
+  .hero__main.col {
+    width: 47%;
+  }
+
+  .hero .hero__title {
+    text-align: start;
+    font-size: 42px;
+  }
+
+  .hero .hero__content {
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .hero .cta {
+    flex-direction: row;
+    margin: 2.5em 0;
+  }
+
+  .hero .cta .cta--email {
+    margin: 0 1em 0 0;
+    width: 58%;
+  }
+
+  .hero .cta .cta--btn {
+    width: 29%;
   }
 }

@@ -25,3 +25,14 @@
   text-decoration: none;
   font-family: $primary-font;
 }
+
+@media (min-width: 992px) {
+  header {
+    padding: 2.5em 0 2em 0;
+  }
+
+  .nav__item {
+    font-size: 18px;
+    padding: 0 1em;
+  }
+}

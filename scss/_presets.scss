@@ -14,7 +14,7 @@ img {
 }
 
 .container {
-  max-width: 1100px;
+  // max-width: 1300px; //
   width: 90%;
   margin: 0 auto;
 
@@ -29,4 +29,13 @@ img {
 
 .nav__list {
   padding: 0;
+}
+
+@media (min-width: 992px) {
+  // .row-lg made for bigger screen sizes //
+
+  .row-lg {
+    display: flex;
+    justify-content: space-between;
+  }
 }
