@@ -45,3 +45,35 @@
     letter-spacing: 0.5px;
   }
 }
+
+@media (min-width: 992px) {
+  .form__section {
+    padding: 5.5em 0 5.5em 0;
+  }
+
+  .form__content.col {
+    width: 42%;
+  }
+
+  .cta--form.col {
+    width: 50%;
+  }
+
+  .form__section .form__content h6 {
+    font-size: 30px;
+  }
+
+  .form__section .form__content h6,
+  .form__section .form__content p {
+    text-align: start;
+  }
+
+  .form__section .form__content p {
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  .form__section .form--btn {
+    width: 50%;
+  }
+}

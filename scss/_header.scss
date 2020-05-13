@@ -24,6 +24,12 @@
 .nav__link {
   text-decoration: none;
   font-family: $primary-font;
+  transition: color 150ms ease-out;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: $accent-clr;
 }
 
 @media (min-width: 992px) {
