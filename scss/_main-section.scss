@@ -87,3 +87,44 @@ main {
     }
   }
 }
+
+@media (min-width: 992px) {
+  main {
+    padding: 0 0 5em 0;
+  }
+
+  .main__img {
+    order: 2;
+    width: 48%;
+  }
+
+  .main__content {
+    order: 1;
+    width: 47%;
+  }
+
+  main .main__content h6 {
+    font-size: 42px;
+    margin: 1em 0 1.5em 0;
+  }
+
+  main .main__content p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  main .main__content--cta {
+    text-align: start;
+    margin: 2em 0 1.5em 0;
+  }
+
+  main .main__content .main__content--cta .main--cta {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .secondary__content .card {
+    width: 65%;
+  }
+}
