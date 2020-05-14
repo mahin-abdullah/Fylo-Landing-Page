@@ -1,6 +1,6 @@
 footer {
   background: $primary-clr;
-  padding: 5em 0 4em 0;
+  padding: 5em 0 0 0;
 
   .footer__logo {
     margin: 0 0 1.5em 0;
@@ -47,10 +47,35 @@ footer {
       opacity: 80%;
     }
   }
+
+  .dev {
+    font-family: $secondary-font;
+    color: $secondary-clr;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 0 0;
+  }
+
+  .dev--info {
+    text-decoration: none;
+    color: $lgt-clr;
+  }
+
+  .dev--info:hover,
+  .dev--info:focus {
+    color: $mod-clr;
+  }
 }
 
 @media (min-width: 992px) {
   footer .footer__list .footer__item {
     padding: 0.8em 0;
+  }
+
+  footer .dev {
+    padding: 5em 0 0 0;
+    font-size: 12px;
   }
 }
