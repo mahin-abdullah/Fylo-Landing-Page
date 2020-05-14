@@ -25,7 +25,8 @@
   text-decoration: none;
   letter-spacing: 0.8px;
   font-family: $primary-font;
-  transition: color 130ms ease-out;
+  transition: all 130ms ease-out;
+  color: #000;
 }
 
 .nav__link:hover,
