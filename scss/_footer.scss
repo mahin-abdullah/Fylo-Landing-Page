@@ -1,6 +1,6 @@
 footer {
   background: $primary-clr;
-  padding: 3.5em 0 2em 0;
+  padding: 5em 0 4em 0;
 
   .footer__logo {
     margin: 0 0 1.5em 0;
@@ -27,6 +27,11 @@ footer {
       color: #fff;
       padding: 1em 0;
     }
+
+    .footer__link:focus,
+    .footer__link:hover {
+      opacity: 80%;
+    }
   }
 
   .social__icons {
@@ -36,5 +41,16 @@ footer {
       color: #fff;
       margin: 2em 0.6em 0.5em 0.6em;
     }
+
+    svg:not(:root).svg-inline--fa:focus,
+    svg:not(:root).svg-inline--fa:hover {
+      opacity: 80%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  footer .footer__list .footer__item {
+    padding: 0.8em 0;
   }
 }
